@@ -19,6 +19,7 @@
                 <Button Text="Nice" Command="{Binding PlayCommand}" CommandParameter="nice"  />
                 <Button Text="Ratoureux" Command="{Binding PlayCommand}" CommandParameter="ratoureux"  />
                 <Button Text="Sec" Command="{Binding PlayCommand}" CommandParameter="sec"  />
+                <Button Text="Impératif" Command="{Binding PlayCommand}" CommandParameter="imperatif"  />
                 <Button Text="Surpris" Command="{Binding PlayCommand}" CommandParameter="surpris"  />
                 <Button Text="Triplet" Command="{Binding PlayCommand}" CommandParameter="triplet"  />
                 <Button Text="Caleçons" Command="{Binding PlayCommand}" CommandParameter="calecons"  />
