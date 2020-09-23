@@ -11,16 +11,38 @@
         <ScrollView>
             <FlexLayout Wrap="Wrap"
                         JustifyContent="SpaceEvenly">
+                <Button Text="Épaté" Command="{Binding PlayCommand}" CommandParameter="epate"  />
+                <Button Text="Épaté 2" Command="{Binding PlayCommand}" CommandParameter="epate2"  />
+                <Button Text="Épaté 3" Command="{Binding PlayCommand}" CommandParameter="epate3"  />
+                <Button Text="Imaginatif" Command="{Binding PlayCommand}" CommandParameter="imaginatif"  />
+                <Button Text="Incroyable" Command="{Binding PlayCommand}" CommandParameter="incroyable"  />
+                <Button Text="Nice" Command="{Binding PlayCommand}" CommandParameter="nice"  />
+                <Button Text="Ratoureux" Command="{Binding PlayCommand}" CommandParameter="ratoureux"  />
+                <Button Text="Sec" Command="{Binding PlayCommand}" CommandParameter="sec"  />
+                <Button Text="Surpris" Command="{Binding PlayCommand}" CommandParameter="surpris"  />
+                <Button Text="Triplet" Command="{Binding PlayCommand}" CommandParameter="triplet"  />
                 <Button Text="Caleçons" Command="{Binding PlayCommand}" CommandParameter="calecons"  />
                 <Button Text="Critiques" Command="{Binding PlayCommand}" CommandParameter="critiques"  />
-
             </FlexLayout>
         </ScrollView>
         <Label HorizontalOptions="FillAndExpand" Text="Training" FontSize="Title" />
         <ScrollView>
             <FlexLayout Wrap="Wrap"
                         JustifyContent="SpaceEvenly">
-
+                <Button Text="Comique" Command="{Binding PlayCommand}" CommandParameter="comique"  />
+                <Button Text="Comique 2" Command="{Binding PlayCommand}" CommandParameter="comique2"  />
+                <Button Text="Dubitatif" Command="{Binding PlayCommand}" CommandParameter="dubitatif"  />
+                <Button Text="Écoeuré" Command="{Binding PlayCommand}" CommandParameter="ecoeure"  />
+                <Button Text="Étonné" Command="{Binding PlayCommand}" CommandParameter="etonne"  />
+                <Button Text="Étonné 2" Command="{Binding PlayCommand}" CommandParameter="etonne2"  />
+                <Button Text="Interrogatif" Command="{Binding PlayCommand}" CommandParameter="interrogatif"  />
+                <Button Text="Jouissif" Command="{Binding PlayCommand}" CommandParameter="jouissif"  />
+                <Button Text="Jouissif 2" Command="{Binding PlayCommand}" CommandParameter="jouissif2"  />
+                <Button Text="As-tu vu l'heure?" Command="{Binding PlayCommand}" CommandParameter="montre"  />
+                <Button Text="Réfléchi" Command="{Binding PlayCommand}" CommandParameter="reflechi"  />
+                <Button Text="Triste" Command="{Binding PlayCommand}" CommandParameter="triste"  />
+                <Button Text="Triste 2" Command="{Binding PlayCommand}" CommandParameter="triste2"  />
+                <Button Text="Pleurant" Command="{Binding PlayCommand}" CommandParameter="pleurant"  />
             </FlexLayout>
         </ScrollView>
     </FlexLayout>
