@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ElvisGratton.MainPage">
+
+    <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="Start">
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Bob Gratton" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label HorizontalOptions="FillAndExpand" Text="Elvis Gratton 3" FontSize="Title" />
+        <ScrollView>
+            <FlexLayout Wrap="Wrap"
+                        JustifyContent="SpaceEvenly">
+                <Button Text="Caleçons" Command="{Binding PlayCommand}" CommandParameter="calecons"  />
+                <Button Text="Critiques" Command="{Binding PlayCommand}" CommandParameter="critiques"  />
+
+            </FlexLayout>
+        </ScrollView>
+        <Label HorizontalOptions="FillAndExpand" Text="Training" FontSize="Title" />
+        <ScrollView>
+            <FlexLayout Wrap="Wrap"
+                        JustifyContent="SpaceEvenly">
+
+            </FlexLayout>
+        </ScrollView>
+    </FlexLayout>
+</ContentPage>
